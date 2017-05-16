@@ -1,0 +1,26 @@
+<div class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color:#fa9536; color:fff;">
+        <button type="button" class="close" ng-click="$hide()">&times;</button>
+        <h4 class="modal-title white-text helvetica">{{header_msg}}</h4>
+      </div>
+      <div class="modal-body">
+
+        <h4 class="helvetica">{{body_msg}}</h4>
+        
+
+       
+
+      </div>
+      <div class="modal-footer">
+       
+        <button type="button" style="background-color:#fa9536; color:#fff;" 
+                class="btn helvetica" ng-click="agree()">Yes</button>
+        <button type="button" style="color:#fff;" 
+                class="btn btn-danger helvetica" ng-click="deny()">No</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
